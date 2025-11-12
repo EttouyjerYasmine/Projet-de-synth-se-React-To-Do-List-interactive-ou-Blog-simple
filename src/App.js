@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { useState } from 'react';
+import Accueil from './pages/Accueil';
+import Article from './pages/Article';
 
 function App() {
+  const [articles] = useState([
+    { id: 1, titre: 'Premier article', contenu: 'Contenu du premier article.' },
+    { id: 2, titre: 'Deuxième article', contenu: 'Contenu du deuxième article.' }
+  ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <nav>
+        <Link to="/">Accueil</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Accueil articles={articles} />} />
+        <Route path="/article/:id" element={<Article articles={articles} />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
