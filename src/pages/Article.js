@@ -1,36 +1,33 @@
-import { useState } from 'react';
+import { useParams, Link } from "react-router-dom";
+import { useState } from "react";
 
-export default function Article({ articles }) {
-  // State local pour gérer les modifications
-  const [editedArticles, setEditedArticles] = useState(articles);
+function Article({ articles, onEdit }) {
+  const { id } = useParams();
+  const article = articles.find((a) => a.id === parseInt(id));
+  const [newContent, setNewContent] = useState(article.contenu);
 
-  // Fonction handleChange pour mettre à jour un article
-  const handleChange = (id, newContent) => {
-    if (!newContent.trim()) {
-      alert("Le contenu ne peut pas être vide !");
-      return;
-    }
-
-    setEditedArticles(prev =>
-      prev.map(article =>
-        article.id === id ? { ...article, contenu: newContent } : article
-      )
-    );
-  };
+  if (!article) return <p>Article non trouvé</p>;
 
   return (
     <div>
-      {editedArticles.map(article => (
-        <div key={article.id} className="article-card">
-          <h2>{article.titre}</h2>
-          <textarea
-            value={article.contenu}
-            onChange={e => handleChange(article.id, e.target.value)}
-            rows={4}
-            cols={50}
-          />
-        </div>
-      ))}
+      <h2>{article.titre}</h2>
+      <textarea
+        className="form-control mb-3"
+        rows="5"
+        value={newContent}
+        onChange={(e) => setNewContent(e.target.value)}
+      ></textarea>
+      <button
+        className="btn btn-success me-2"
+        onClick={() => onEdit(article.id, newContent)}
+      >
+        💾 Enregistrer
+      </button>
+      <Link to="/" className="btn btn-secondary">
+        ⬅️ Retour à l’accueil
+      </Link>
     </div>
   );
 }
+
+export default Article;
