@@ -1,82 +1,36 @@
-# Getting Started with Create React App
+# Projet de synthèse React : To-Do List interactive / Blog simple
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est un mini-blog ou une liste de tâches interactive développé avec **React**, utilisant **React Router** pour la navigation, et **Bootstrap** pour le style. Il est également déployé sur **Netlify** avec un lien de déploiement continu depuis **GitHub**.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
 
 
-### Implementation du travail pratique
-<img width="958" height="509" alt="TP4 1 0" src="https://github.com/user-attachments/assets/53c19239-c310-4c1c-b9d5-804259963c63" />
+## Implementation du travail pratique:
+-<img width="958" height="509" alt="TP4 1 0" src="https://github.com/user-attachments/assets/c6c95969-5185-48cd-b544-ec74f29f0218" />
+
+
 
 # Premier article
-<img width="960" height="508" alt="TP4 1 1" src="https://github.com/user-attachments/assets/128c43f1-431f-4594-8e83-64e488999de5" />
+<img width="960" height="508" alt="TP4 1 1" src="https://github.com/user-attachments/assets/1fad39fd-d307-4b31-9427-4468a8e9366f" />
+
 
 # Deuxieme article
-<img width="960" height="510" alt="TP4 1 2" src="https://github.com/user-attachments/assets/1bc72fd7-b50e-427f-9caf-ab74b0fb6669" />
+-<img width="960" height="510" alt="TP4 1 2" src="https://github.com/user-attachments/assets/42b44c0a-6b5c-4f19-9201-7e08da4224dc" />
+
+# Deploiment sur Netlify
+-<img width="922" height="505" alt="TP4 1 3" src="https://github.com/user-attachments/assets/d22c62ad-0035-4a12-910f-7a05c923c418" />
+
+-<img width="921" height="513" alt="TP4 1 4" src="https://github.com/user-attachments/assets/7bc25938-dbc8-4157-8b6f-809ca430c94f" />
+
+-<img width="923" height="507" alt="TP4 1 5" src="https://github.com/user-attachments/assets/3a606c1e-5d5d-4f6f-a27f-e50b03f85c96" />
+
+# Exercices suplémentaires
+-<img width="923" height="508" alt="TP4 1 7" src="https://github.com/user-attachments/assets/60c400ab-45d5-4559-a452-469f4a854511" />
+
+-<img width="926" height="507" alt="TP4 1 8" src="https://github.com/user-attachments/assets/105f17b3-5673-4117-a0e9-65a55fc029d1" />
+
+-<img width="921" height="507" alt="TP4 1 9" src="https://github.com/user-attachments/assets/fa64fc4d-6787-4a5b-afdc-0900674a43d0" />
+
+-<img width="928" height="509" alt="TP4 1 10" src="https://github.com/user-attachments/assets/66e0971a-561d-4927-a822-fc928cdb123b" />
 
 
